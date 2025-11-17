@@ -1,5 +1,9 @@
 git checkout --orphan novo-main && git add -A && git commit -m "Forced Git" && git branch -D main && git branch -m main && git push -f origin main
 
+git remote set-url origin https://fullstackdavi:${GITHUB_PERSONAL_ACCESS_TOKEN}@github.com/fullstackdavi/DigitalSoluctions.git
+
+git push -f origin main
+
 
 https://fullstackdavi.github.io/DigitalSoluctions/
 
